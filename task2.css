@@ -51,7 +51,7 @@
 }
 .s1-para2{
      color: #E8E0D9;
-     font-size: 20px;
+     font-size: 20px !important;
      width: 500px;
 }
  .s1-btn1{
