@@ -1,0 +1,423 @@
+.navbar{
+    background-color:black;
+    color: white;
+    padding: 20px;
+}
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-brand{
+    color:  #8B5E3C;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.navbar-brand:hover{
+    color: white;
+}
+.btn1{
+    color: white;
+    background-color: #8B5E3C;
+    border-radius: 20px;
+    font-weight: 500;
+
+}
+.section1{
+    background-image: url('images/coffe1.jpg');
+    background-size: cover;
+     background-position:center;
+        background-repeat:no-repeat;
+        height: 90vh;
+}
+.s1-para1{
+    color:#C58B55;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.s1-heading1{
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+   
+}
+.heading2{
+    color:#D6A06A !important;
+}
+.first-container{
+    padding: 100px;
+}
+.s1-para2{
+     color: #E8E0D9;
+     font-size: 20px;
+     width: 500px;
+}
+ .s1-btn1{
+    width: 20%;
+    padding: 20px;
+}
+.s2-para1{
+    color: #3B2416;
+    text-align: center;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+    color:#4A3428;
+    text-align: center;
+}
+.s2-heading1{
+    color: #4A3428;
+    text-align: center;
+    font-size: 40px;
+    line-height: 0px;
+}
+.card-para{
+    color:black;
+   font-size: 13px;
+    text-align: center;
+}
+.card-price{
+    color: #8B5E3C;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  
+}
+.box-image{
+    height: 200px;
+    width: 100%;
+}
+.card{
+
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 20px !important;
+    height: 100% !important;
+}
+.box-image{
+    width: 100%;
+    
+    object-fit: cover;
+    border-radius: 20px 20px 0 0 !important;
+}
+.s3-heading1{
+    color: #2E1F17;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+.s3-para1{
+    font-size: 14px;
+}
+.s3-image{
+    width: 100%;
+    height: auto;
+}
+.s3-para2{
+    color: #4A3428;
+    font-size: 15px;
+    width: 400px;
+}
+.s3-btn{
+    width: 30%;
+    padding: 15px;
+}
+.section3{
+    background-color:#F5F0EA;
+}
+.person-image{
+    width:20%;
+    height: auto;
+    border-radius: 50%;
+}
+.person-name{
+    font-size: 18px;
+    font-weight: bold;
+    color: #4A3428;
+}
+.fa-star{
+    color: #4A3428;
+}
+.fa-quote-left{
+    color: #4A3428;
+    font-size: 30px;
+}
+.star{
+    line-height: 0px;
+}
+.person-name{
+    font-size: 18px;
+    font-weight: bold;
+    color: #4A3428;
+}
+.s3-para1{
+    font-size: 14px;
+}
+.person-card{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 20px !important;
+    padding: 20px;
+    height: 100%;
+    width: 90%;
+}
+.section4{
+  background-color: #ffffff;
+}
+.boxes{
+    border-radius: 50% !important;
+    background-color:transparent;
+    border: 1px solid white;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+}
+.last-logo{
+    font-size: 35px;
+    text-align: start;
+}
+.last-logo:hover{
+    color: #8B5E3C;
+}
+.footer{
+    background-color: #2E1F17;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.last-para{
+    font-size: 15px;
+    text-align: start;
+}
+a{
+    color: white !important;
+    text-align: start;
+}
+.footer-text{
+    color:#8B5E3C;
+    text-align: start;
+}
+.text-para{
+    text-align:start;
+}
+.text{
+    text-align: start;
+}
+.footer-text1{
+    color:#8B5E3C;
+    text-align: start;
+}
+
+@media (max-width: 992px) {
+
+    .navbar {
+        padding: 15px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .btn1 {
+        margin-top: 10px;
+    }
+
+    .first-container {
+        padding: 60px 40px;
+    }
+
+    .s1-heading1 {
+        font-size: 50px;
+    }
+
+    .s1-para2 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .s1-btn1,
+    .s3-btn {
+        width: auto;
+        padding: 12px 25px;
+    }
+
+    .section1 {
+        height: auto;
+        min-height: 80vh;
+    }
+
+    .s3-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .s3-para2 {
+        width: 100%;
+    }
+
+    .person-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .person-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .last-logo,
+    .last-para,
+    .footer-text,
+    .footer-text1,
+    .text,
+    .text-para,
+    a {
+        text-align: center !important;
+    }
+
+    .boxes {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .section1 {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .first-container {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .s1-heading1 {
+        font-size: 38px;
+        line-height: 1.2;
+    }
+
+    .s1-para1 {
+        font-size: 14px;
+    }
+
+    .s1-para2 {
+        width: 100%;
+        font-size: 16px;
+        margin: auto;
+    }
+
+    .s1-btn1,
+    .s3-btn {
+        width: 70%;
+        margin: auto;
+    }
+
+    .s2-heading1 {
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .box-image {
+        height: 220px;
+    }
+
+    .s3-heading1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .s3-para1,
+    .s3-para2 {
+        text-align: center;
+    }
+
+    .person-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .person-image {
+        width: 55px;
+        height: 55px;
+    }
+
+    .footer .row > div {
+        margin-bottom: 30px;
+    }
+
+    .boxes {
+        width: 38px;
+        height: 38px;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .first-container {
+        padding: 30px 15px;
+    }
+
+    .s1-heading1 {
+        font-size: 30px;
+    }
+
+    .s1-para2 {
+        font-size: 15px;
+    }
+
+    .s1-btn1,
+    .s3-btn {
+        width: 90%;
+    }
+
+    .s2-heading1 {
+        font-size: 24px;
+    }
+
+    .s3-heading1 {
+        font-size: 24px;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+
+    .card-price {
+        font-size: 22px;
+    }
+
+    .person-name {
+        font-size: 16px;
+    }
+
+    .last-logo {
+        font-size: 28px;
+    }
+
+    .footer {
+        padding: 30px 15px !important;
+    }
+}
