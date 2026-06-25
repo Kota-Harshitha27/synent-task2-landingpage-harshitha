@@ -221,6 +221,8 @@ a{
 
     .btn1 {
         margin-top: 10px;
+        width: 30% !important;
+        height: auto !important;
     }
 
     .first-container {
@@ -326,6 +328,11 @@ a{
         font-size: 16px;
         margin: auto;
     }
+    .btn1 {
+        margin-top: 10px;
+        width: 30% !important;
+        height: auto !important;
+    }
 
     .s1-btn1,
     .s3-btn {
@@ -402,6 +409,11 @@ a{
 
     .s1-para2 {
         font-size: 15px;
+    }
+    .btn1 {
+        margin-top: 10px;
+        width: 30% !important;
+        height: auto !important;
     }
 
     .s1-btn1,
